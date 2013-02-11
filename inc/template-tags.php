@@ -327,7 +327,7 @@ if ( ! function_exists( 'basestation_do_post_comments_link' ) ):
  */
  function basestation_do_post_comments_link() {
   if ( comments_open() || ( '0' != get_comments_number() && ! comments_open() ) ) : ?>
-    <span class="comments-link"><i class="meta-icon icon-chat"></i><?php comments_popup_link( __( ' Leave a comment', 'basestation' ), __( ' 1 Comment', 'basestation' ), __( ' % Comments', 'basestation' ) ); ?></span>
+    <span class="comments-link"><i class="meta-icon icon-comment"></i><?php comments_popup_link( __( ' Leave a comment', 'basestation' ), __( ' 1 Comment', 'basestation' ), __( ' % Comments', 'basestation' ) ); ?></span>
   <?php endif;
  }
  add_action( 'basestation_post_comments_link', 'basestation_do_post_comments_link' );
