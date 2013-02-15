@@ -85,17 +85,9 @@ function basestation_setup() {
   /* Add support for post formats. To be styled in later release. */
   add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' ));
 
-  /* Add support for local fonts */
-  add_theme_support( 'basestation-local-fonts' );
-
 }
 endif; // basestation_setup
 add_action( 'after_setup_theme', 'basestation_setup' );
-
-
-if( file_exists( get_template_directory() . '/custom/custom_functions.php' ) && !is_child_theme()) {
-  include_once( get_template_directory() . '/custom/custom_functions.php' );
-}
 
 
 /*
