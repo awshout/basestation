@@ -1,7 +1,11 @@
 == Change log ==
-Version 0.9.3 - Under development
+Version 0.9.3 - February 14, 2013
 ---------------------------------
 - Fixed comment icon displayed in post meta footer.
+- Removed local Open Sans fonts.
+- Cleaned up style loading in inc/stylesheets.php.
+- Removed support for custom.css. Use a child theme instead.
+- Removed support for custom_functions.php. Use a child theme instead.
 
 
 
