@@ -11,6 +11,10 @@
  * @since Base Station 0.1
  */
 ?>
+<?php if ( ! comments_open() ) {
+  return;
+} ?>
+
   <div id="comments">
   <?php if ( post_password_required() ) : ?>
     <p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'basestation' ); ?></p>
