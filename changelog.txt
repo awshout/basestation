@@ -1,4 +1,12 @@
 == Change log ==
+Version 0.9.4 - Under development
+---------------------------------
+- Return early in comments.php if comments closed.
+- Minor style update to wp_title.
+- Minor housekeeping.
+
+
+
 Version 0.9.3 - February 14, 2013
 ---------------------------------
 - Fixed comment icon displayed in post meta footer.
