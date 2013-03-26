@@ -11,7 +11,7 @@
  * @since Base Station 0.1
  */
 ?>
-<?php if ( ! comments_open() ) {
+<?php if ( ! comments_open() && ! have_comments() ) {
   return;
 } ?>
 
